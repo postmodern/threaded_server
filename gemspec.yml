@@ -1,0 +1,16 @@
+name: threaded_server
+version: 0.1.0
+summary: Similar to GServer, but with a Thread Pool.
+description:
+  A generic TCP Server with a fixed-size Thread Pool.
+
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: http://github.com/postmodern/threaded_server
+has_yard: true
+
+development_dependencies:
+  ore-tasks: ~> 0.4
+  rspec: ~> 2.4
+  yard: ~> 0.6.0
